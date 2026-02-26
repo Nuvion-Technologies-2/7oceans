@@ -1,0 +1,23 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pool" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(610 550) rotate(90) scale(780)">
+      <stop stop-color="#38E1F9"/>
+      <stop offset="1" stop-color="#009FD0"/>
+    </radialGradient>
+    <linearGradient id="caustic" x1="120" y1="120" x2="1080" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#DFFAFF" stop-opacity="0.12"/>
+    </linearGradient>
+    <pattern id="tile" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120 0H0V120" stroke="#B9F5FF" stroke-opacity="0.2" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#pool)"/>
+  <rect width="1200" height="1200" fill="url(#tile)"/>
+  <g opacity="0.35">
+    <path d="M60 240C140 180 250 200 320 250C430 330 510 340 610 280C700 230 810 230 900 280C980 330 1080 330 1140 280" stroke="url(#caustic)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M40 510C120 450 230 470 300 520C420 610 530 600 630 530C740 450 850 450 950 520C1030 580 1110 590 1160 550" stroke="url(#caustic)" stroke-width="24" stroke-linecap="round"/>
+    <path d="M90 780C190 710 300 730 380 790C480 860 570 870 680 810C780 760 880 760 980 820C1060 870 1120 860 1160 830" stroke="url(#caustic)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M70 1020C170 960 270 970 350 1020C460 1090 560 1110 670 1040C760 980 850 980 940 1040C1020 1090 1110 1090 1160 1060" stroke="url(#caustic)" stroke-width="24" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="460" height="420" viewBox="0 0 460 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leafA" x1="100" y1="80" x2="310" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39E27E"/>
+      <stop offset="1" stop-color="#0E9C4A"/>
+    </linearGradient>
+    <linearGradient id="leafB" x1="120" y1="20" x2="340" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#54F095"/>
+      <stop offset="1" stop-color="#149E53"/>
+    </linearGradient>
+  </defs>
+  <path d="M42 420C46 345 76 274 130 202C197 112 263 70 370 34C336 100 304 159 240 234C179 304 122 362 42 420Z" fill="url(#leafA)"/>
+  <path d="M24 420C30 348 54 283 106 220C171 142 236 102 336 64C307 125 278 186 219 256C163 324 105 377 24 420Z" fill="url(#leafB)"/>
+  <path d="M14 420C22 356 41 300 87 249C148 183 210 149 302 118C275 173 251 223 198 286C147 347 97 389 14 420Z" fill="url(#leafA)"/>
+  <path d="M70 356L328 58" stroke="#0F7E3F" stroke-opacity="0.38" stroke-width="4"/>
+  <path d="M48 379L282 120" stroke="#0F7E3F" stroke-opacity="0.3" stroke-width="3"/>
+  <path d="M32 395L242 170" stroke="#0F7E3F" stroke-opacity="0.24" stroke-width="3"/>
+</svg>
